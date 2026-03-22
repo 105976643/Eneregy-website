@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="index.html" class="logo">
+    <img src="PowerIcon.png" alt="logo">
+  </a>
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="televisions.html">Televisions</a></li>
+    <li><a href="about.html">About Us</a></li>
+  </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<div class="hero">
+  <h1>Smarter Energy Choices</h1>
+  <p>Understand appliance energy use and reduce your electricity costs in Australia</p>
+</div>
+
+<div class="container">
+
+  <!-- INTRO -->
+  <section class="intro">
+    <h2>Energy in Australian Homes</h2>
+    <p>
+      Household appliances contribute significantly to electricity consumption.
+      Understanding how much energy your devices use can help reduce costs and
+      improve sustainability.
+    </p>
+  </section>
+
+  <!-- FEATURE CARDS -->
+  <section class="cards">
+
+    <div class="card">
+      <h3>Energy Calculator</h3>
+      <p>Estimate daily, monthly, and yearly energy consumption.</p>
+    </div>
+
+    <div class="card">
+      <h3>TV Energy Data</h3>
+      <p>Compare real television energy usage from dataset analysis.</p>
+    </div>
+
+    <div class="card">
+      <h3>Save Costs</h3>
+      <p>Learn how efficient appliances reduce electricity bills.</p>
+    </div>
+
+  </section>
+
+  <!-- CALCULATOR -->
+  <section>
+    <h2>Energy Calculator</h2>
+
+    <div class="calculator">
+      <input type="number" id="power" placeholder="Power (Watts)">
+      <input type="number" id="hours" placeholder="Hours per day">
+      <input type="number" id="price" placeholder="Electricity price (cents/kWh)">
+      <button onclick="calculateEnergy()">Calculate</button>
+      <div id="result"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>FAQ</h2>
+
+    <button class="faq-btn">What is energy consumption?</button>
+    <div class="faq-content"><b>It is the amount of electricity used by appliances.</b></div>
+
+    <button class="faq-btn">Why is energy efficiency important?</button>
+    <div class="faq-content"><b>It helps reduce electricity costs and environmental impact.</b></div>
+
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; CHARI 2026 AU | Generated with assistance from AI</p>
+</footer>
+
+<script src="javascript.js"></script>
+
+</body>
+</html>
